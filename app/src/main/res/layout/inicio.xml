@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/tv_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="USUARIO"
+        android:textSize="20dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/et_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_usuario"
+        android:layout_marginHorizontal="30dp"
+        android:paddingTop="0dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTRASEÑA"
+        android:textSize="20dp"
+        android:layout_below="@id/et_usuario"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_contraseña"
+        android:layout_marginHorizontal="30dp"
+        android:inputType="textPassword"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_contraseña"
+        >
+
+
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:layout_below="@id/et_contraseña"
+        android:layout_marginHorizontal="50dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:layout_below="@id/btnIngresar"
+        />
+    </LinearLayout>
+
+
+</RelativeLayout>
